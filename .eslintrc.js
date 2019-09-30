@@ -17,5 +17,8 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react'],
-  rules: {},
+  rules: {
+    'react/prefer-stateless-function': 'off',
+    'react/jsx-filename-extension': 'off',
+  },
 };
